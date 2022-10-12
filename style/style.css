@@ -70,6 +70,7 @@ header {
     height: 50%;
     align-items: center; }
     .skills .der h2 {
+      margin-top: 10vh;
       font-size: 2rem;
       padding: 10px; }
     .skills .der .logosSkills {
