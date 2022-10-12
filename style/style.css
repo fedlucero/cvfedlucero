@@ -15,23 +15,25 @@ body {
 a {
   text-decoration: none; }
 
-/* Extra small devices (phones, 600px and down) */
 header {
   background-color: #DEE2E6;
   width: 100vw;
   height: 10vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   position: fixed; }
   header h3 {
     margin: 10px;
     color: #212529;
     font-size: 1rem; }
-  header nav a {
-    margin-right: 10px;
-    color: #212529;
-    font-size: 1rem; }
+  header nav {
+    align-self: center; }
+    header nav a {
+      margin-right: 10px;
+      color: #212529;
+      font-size: 1rem; }
 
 .quienSoy {
   background-color: #DEE2E6;
@@ -43,6 +45,7 @@ header {
   align-items: center;
   padding-top: 10vh; }
   .quienSoy .titulos h1 {
+    margin-top: 10vh;
     font-size: 2rem;
     color: #212529; }
   .quienSoy .titulos h2 {
@@ -147,12 +150,19 @@ header {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 501px) {
-  header h3 {
-    margin: 15px;
-    font-size: 1.2rem; }
-  header nav a {
-    margin-right: 15px; }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed; }
+    header h3 {
+      margin: 15px;
+      font-size: 1.2rem; }
+    header nav a {
+      margin-right: 15px; }
   .quienSoy .titulos h1 {
+    margin-top: 2vh;
     font-size: 2.5rem; }
   .quienSoy .imgPerfil {
     margin-top: 7vh;
@@ -165,6 +175,11 @@ header {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
   header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
     width: 96vw;
     max-width: 1200px; }
     header h3 {
@@ -179,6 +194,7 @@ header {
     justify-content: space-evenly;
     padding-top: 12vh; }
     .quienSoy .titulos h1 {
+      margin-top: 2vh;
       font-size: 3rem; }
     .quienSoy .imgPerfil {
       margin-top: 1vh;
