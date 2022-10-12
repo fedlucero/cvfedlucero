@@ -1,0 +1,18 @@
+{
+  "name": "cvfl",
+  "version": "1.0.0",
+  "description": "CV Federico Lucero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": 
+    "node-sass --include-path scss style/sass/main.scss style/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Federico Lucero",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
