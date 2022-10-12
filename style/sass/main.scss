@@ -24,8 +24,9 @@ a{
 
 
 
-@import "variables", "header", "quienSoy", "skills", "contacto", "proyecto";.canvas{
-    width: 250px;
-    height: 250px;
+@import "variables", "header", "quienSoy", "skills", "contacto", "proyecto","media";
+
+.canvas{
+  
     background-color: $gainsboro;
 }

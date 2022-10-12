@@ -16,393 +16,205 @@ a {
   text-decoration: none; }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
-  header {
-    background-color: #DEE2E6;
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed; }
-    header h3 {
-      margin: 5px;
-      color: #212529;
-      font-size: 1rem; }
-    header nav a {
-      margin-right: 8px;
-      color: #212529;
-      font-size: 1rem; } }
+header {
+  background-color: #DEE2E6;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; }
+  header h3 {
+    margin: 10px;
+    color: #212529;
+    font-size: 1rem; }
+  header nav a {
+    margin-right: 10px;
+    color: #212529;
+    font-size: 1rem; }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 501px) {
-  header {
-    background-color: #DEE2E6;
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed; }
-    header h3 {
-      margin: 15px;
-      color: #212529; }
-    header nav a {
-      margin-right: 15px;
-      color: #212529; } }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
-  header {
-    background-color: #DEE2E6;
-    width: 96vw;
-    max-width: 1200px;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed; }
-    header h3 {
-      margin: 15px;
-      color: #212529; }
-    header nav a {
-      margin-right: 15px;
-      color: #212529; } }
+.quienSoy {
+  background-color: #DEE2E6;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10vh; }
+  .quienSoy .titulos h1 {
+    font-size: 2rem;
+    color: #212529; }
+  .quienSoy .titulos h2 {
+    font-size: 1rem;
+    color: #343A40; }
+  .quienSoy .imgPerfil {
+    margin-top: 7vh;
+    width: 70%; }
+    .quienSoy .imgPerfil img {
+      width: 100%; }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
-  .quienSoy {
-    background-color: #DEE2E6;
-    width: 100vw;
-    height: 100vh;
+.skills {
+  background-color: #343A40;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .skills .der {
+    width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 10vh; }
-    .quienSoy .titulos h1 {
+    height: 50%;
+    align-items: center; }
+    .skills .der h2 {
       font-size: 2rem;
-      color: #212529; }
-    .quienSoy .titulos h2 {
-      font-size: 1rem;
-      color: #343A40; }
-    .quienSoy .imgPerfil {
-      margin-top: 7vh;
-      width: 70%; }
-      .quienSoy .imgPerfil img {
-        width: 100%; } }
+      padding: 10px; }
+    .skills .der .logosSkills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .skills .der .logosSkills img {
+        width: 60px;
+        margin: 5px; }
+  .skills .izq {
+    display: flex;
+    justify-content: center;
+    width: 90%; }
+
+.contacto {
+  background-color: #DEE2E6;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center; }
+  .contacto .der {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    align-items: center;
+    justify-content: center; }
+    .contacto .der p {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-right: 20px; }
+  .contacto .izq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%; }
+    .contacto .izq h2 {
+      font-size: 2rem;
+      padding: 10px; }
+    .contacto .izq h3 {
+      font-size: 1rem; }
+    .contacto .izq .logosRedes {
+      display: flex; }
+      .contacto .izq .logosRedes img {
+        width: 60px;
+        margin: 5px; }
+
+.proyectos {
+  background-color: #343A40;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .proyectos h2 {
+    font-size: 2rem;
+    padding: 10px; }
+  .proyectos .imgProyectos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .proyectos .imgProyectos a {
+      width: 70%;
+      display: flex;
+      justify-content: center; }
+      .proyectos .imgProyectos a img {
+        width: 80%;
+        margin-top: 1rem; }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 501px) {
-  .quienSoy {
-    background-color: #DEE2E6;
-    width: 100vw;
-    height: 100vh;
+  header h3 {
+    margin: 15px;
+    font-size: 1.2rem; }
+  header nav a {
+    margin-right: 15px; }
+  .quienSoy .titulos h1 {
+    font-size: 2.5rem; }
+  .quienSoy .imgPerfil {
+    margin-top: 7vh;
+    width: 60%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 10vh; }
-    .quienSoy .titulos h1 {
-      font-size: 2.5rem;
-      color: #212529; }
-    .quienSoy .titulos h2 {
-      font-size: 1rem;
-      color: #343A40; }
-    .quienSoy .imgPerfil {
-      margin-top: 7vh;
-      width: 70%; }
-      .quienSoy .imgPerfil img {
-        width: 100%; } }
+    justify-content: center; }
+    .quienSoy .imgPerfil img {
+      width: 65%; } }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
-  .quienSoy {
-    background-color: #DEE2E6;
+  header {
     width: 96vw;
-    height: 50vh;
+    max-width: 1200px; }
+    header h3 {
+      margin: 15px; }
+    header nav a {
+      margin-right: 15px; }
+  .quienSoy {
+    width: 96vw;
+    height: 60vh;
     max-width: 1200px;
-    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     padding-top: 12vh; }
     .quienSoy .titulos h1 {
-      font-size: 3rem;
-      color: #212529; }
-    .quienSoy .titulos h2 {
-      font-size: 1rem;
-      color: #343A40; }
+      font-size: 3rem; }
     .quienSoy .imgPerfil {
-      width: 20%; }
-      .quienSoy .imgPerfil img {
-        width: 100%; } }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
+      margin-top: 1vh;
+      width: 30%; }
   .skills {
-    background-color: #343A40;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .skills .der {
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      height: 50%;
-      align-items: center; }
-      .skills .der h2 {
-        font-size: 2rem;
-        padding: 10px; }
-      .skills .der .logosSkills {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap; }
-        .skills .der .logosSkills img {
-          width: 60px;
-          margin: 5px; }
-    .skills .izq {
-      display: flex;
-      justify-content: center;
-      width: 90%; } }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 501px) {
-  .skills {
-    background-color: #343A40;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .skills .der {
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      height: 50%;
-      align-items: center; }
-      .skills .der h2 {
-        font-size: 2rem;
-        padding: 10px; }
-      .skills .der .logosSkills {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap; }
-        .skills .der .logosSkills img {
-          width: 60px;
-          margin: 5px; }
-    .skills .izq {
-      display: flex;
-      justify-content: center;
-      width: 90%; } }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
-  .skills {
-    background-color: #343A40;
     width: 96vw;
     max-width: 1200px;
-    height: 40vh;
+    height: 60vh;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: row-reverse; }
     .skills .der {
       width: 50%;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      align-items: center; }
-      .skills .der h2 {
-        font-size: 2rem;
-        padding: 10px; }
-      .skills .der .logosSkills {
-        display: flex;
-        flex-wrap: wrap; }
-        .skills .der .logosSkills img {
-          width: 80px;
-          margin: 5px; }
+      height: 100%; }
+      .skills .der .logosSkills img {
+        width: 80px; }
     .skills .izq {
-      display: flex;
-      justify-content: center;
-      width: 50%; } }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
-  .contacto {
-    background-color: #DEE2E6;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center; }
-    .contacto .der {
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      height: 40%;
-      align-items: center;
-      justify-content: center; }
-      .contacto .der p {
-        text-align: center;
-        font-size: 1.1rem;
-        margin-right: 20px; }
-    .contacto .izq {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       width: 50%; }
-      .contacto .izq h2 {
-        font-size: 2rem;
-        padding: 10px; }
-      .contacto .izq h3 {
-        font-size: 1rem; }
-      .contacto .izq .logosRedes {
-        display: flex; }
-        .contacto .izq .logosRedes img {
-          width: 60px;
-          margin: 5px; } }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 501px) {
   .contacto {
-    background-color: #DEE2E6;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center; }
-    .contacto .der {
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      height: 40%;
-      align-items: center;
-      justify-content: center; }
-      .contacto .der p {
-        text-align: center;
-        font-size: 1.1rem;
-        margin-right: 20px; }
-    .contacto .izq {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 50%; }
-      .contacto .izq h2 {
-        font-size: 2rem;
-        padding: 10px; }
-      .contacto .izq h3 {
-        font-size: 1rem; }
-      .contacto .izq .logosRedes {
-        display: flex; }
-        .contacto .izq .logosRedes img {
-          width: 60px;
-          margin: 5px; } }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
-  .contacto {
-    background-color: #DEE2E6;
     width: 96vw;
     max-width: 1200px;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center; }
     .contacto .der {
       width: 50%;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      align-items: center;
-      justify-content: center; }
-      .contacto .der p {
-        font-size: 1.1rem;
-        margin-right: 20px; }
-    .contacto .izq {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 50%; }
-      .contacto .izq h2 {
-        font-size: 2rem;
-        padding: 10px; }
-      .contacto .izq h3 {
-        font-size: 1rem; }
-      .contacto .izq .logosRedes {
-        display: flex;
-        flex-wrap: wrap; }
-        .contacto .izq .logosRedes img {
-          width: 80px;
-          margin: 5px; } }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
-  .proyectos {
-    background-color: #343A40;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .proyectos h2 {
-      font-size: 2rem;
-      padding: 10px; }
-    .proyectos .imgProyectos {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-      .proyectos .imgProyectos a {
-        width: 70%;
-        display: flex;
-        justify-content: center; }
-        .proyectos .imgProyectos a img {
-          width: 80%;
-          margin-top: 1rem; } }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 501px) {
-  .proyectos {
-    background-color: #343A40;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .proyectos h2 {
-      font-size: 2rem;
-      padding: 10px; }
-    .proyectos .imgProyectos {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-      .proyectos .imgProyectos a {
-        width: 70%;
-        display: flex;
-        justify-content: center; }
-        .proyectos .imgProyectos a img {
-          width: 80%;
-          margin-top: 1rem; } }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
+      height: 100%; }
+    .contacto .izq .logosRedes {
+      flex-wrap: wrap; }
+      .contacto .izq .logosRedes img {
+        width: 80px; }
   .proyectos {
     background-color: #343A40;
     width: 96vw;
     max-width: 1200px;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -413,6 +225,7 @@ a {
     .proyectos .imgProyectos {
       width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: center;
       align-items: center; }
       .proyectos .imgProyectos a {
@@ -423,6 +236,4 @@ a {
           width: 80%; } }
 
 .canvas {
-  width: 250px;
-  height: 250px;
   background-color: #DEE2E6; }
