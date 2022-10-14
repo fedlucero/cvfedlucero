@@ -15,30 +15,40 @@ body {
 a {
   text-decoration: none; }
 
-header {
-  background-color: #DEE2E6;
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  position: fixed;
-  box-shadow: 0px 16px 15px -6px rgba(0, 0, 0, 0.41); }
-  header h3 {
-    margin: 10px;
-    color: #212529;
-    font-size: 1rem; }
-  header nav {
-    align-self: center; }
-    header nav a {
-      margin-right: 10px;
+@media only screen and (max-width: 500px) {
+  header {
+    background-color: #DEE2E6;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 16px 15px -6px rgba(0, 0, 0, 0.41); }
+    header h3 {
+      margin: 10px;
       color: #212529;
-      font-size: 1rem;
-      transition-timing-function: ease-in;
-      transition: .6s; }
-      header nav a:hover {
-        box-shadow: inset 0 -2px 0 0 #6C757D; }
+      font-size: 1rem; }
+    header nav {
+      position: absolute;
+      top: 10vh;
+      background-color: #DEE2E6;
+      width: 100vw;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      header nav a {
+        width: 100vw;
+        padding: 10px;
+        font-size: 1.2rem;
+        border-bottom: 1px solid #ADB5BD;
+        margin-left: auto;
+        margin-right: auto;
+        color: #212529; }
+        header nav a:hover {
+          box-shadow: inset 0 -2px 0 0 #6C757D; } }
 
 .quienSoy {
   background-color: #DEE2E6;
@@ -158,18 +168,30 @@ header {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 501px) {
   header {
+    background-color: #DEE2E6;
+    width: 100vw;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: fixed; }
+    header .esconder {
+      display: none; }
     header h3 {
       margin-left: 20px;
       font-size: 1.2rem; }
     header nav {
+      display: flex !important;
       margin-right: 20px; }
       header nav a {
-        margin-right: 15px; }
+        margin-right: 15px;
+        color: #212529;
+        font-size: 1rem;
+        transition-timing-function: ease-in;
+        transition: .6s; }
+        header nav a:hover {
+          box-shadow: inset 0 -2px 0 0 #6C757D; }
   .quienSoy .titulos h1 {
     margin-top: 2vh;
     font-size: 2.5rem; }
@@ -184,6 +206,9 @@ header {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
   header {
+    background-color: #DEE2E6;
+    width: 100vw;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -191,11 +216,19 @@ header {
     position: fixed;
     width: 96vw;
     max-width: 1200px; }
+    header .esconder {
+      display: none; }
     header h3 {
       font-size: 1.5rem;
       margin-left: 25px; }
     header nav a {
-      margin-right: 15px; }
+      margin-right: 15px;
+      color: #212529;
+      font-size: 1rem;
+      transition-timing-function: ease-in;
+      transition: .6s; }
+      header nav a:hover {
+        box-shadow: inset 0 -2px 0 0 #6C757D; }
   .quienSoy {
     width: 96vw;
     height: 60vh;
