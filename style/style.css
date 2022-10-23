@@ -207,7 +207,11 @@ a {
   .skills {
     height: auto; }
     .skills .izq canvas {
-      margin: 7vh; } }
+      margin: 7vh; }
+  .contacto {
+    height: auto; }
+    .contacto .der {
+      margin-bottom: 7vh; } }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
