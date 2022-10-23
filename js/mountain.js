@@ -287,7 +287,7 @@ createOverlay(colorMonta3, 0.6, 3, n, g);
 createOverlay(colorSol, 0.6, 3,100,100);
 createSun()
 createSky()
-fxpreview()
+
 
 function drawBackground() {
   var lg = ctx.createLinearGradient(0, 0, 0, ctx.canvas.height);
@@ -312,7 +312,7 @@ function createSun() {
   ctx.arc(xs,ys,20,0,Math.PI *2 )
   ctx.fill(); 
 
-  ctx.lineTo(xs, height - noise);
+  
 	ctx.globalAlpha = 0.15;
 	ctx.stroke();
 

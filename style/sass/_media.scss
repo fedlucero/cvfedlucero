@@ -39,6 +39,7 @@
      }
 
      .quienSoy{
+        height: auto;
         .titulos{
            h1{
                 margin-top: 2vh;
@@ -46,7 +47,8 @@
                }
            }
            .imgPerfil{
-               margin-top: 7vh;
+               margin: 7vh;
+               
                width: 60%;
                display: flex;
                justify-content: center;
@@ -55,6 +57,17 @@
                    width:65%;
                }
            }
+   }
+
+   .skills{
+    height: auto;
+    .izq{
+        canvas{
+            margin: 7vh;
+            
+        }
+    }
+
    }
      
     
