@@ -120,23 +120,28 @@
      
     .quienSoy{
         width: 96vw;
-        height: 60vh;
+        height: 100vh;
         max-width: 1200px;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding-top: 12vh;
 
             .titulos{
                 h1{
-                    margin-top: 2vh;
-                    font-size: 3rem;
+                    margin-top: 10vh;
+                    font-size: 5rem;
                 
+                }
+                h2{
+                    font-size: 1.5rem;
                 }
             }
 
             .imgPerfil{
-                margin-top: 1vh;
-                width: 30%;
+                align-self: center;
+                margin-top: 10vh;
+                width: 40%;
                 
             }
     }
@@ -146,14 +151,14 @@
        
         width: 96vw;
         max-width: 1200px;
-        height: 60vh;
+        height: 100vh;
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
 
         .der{
             width: 50%;
-            height: 100%;
-            
+           
             .logosSkills{
                 img{
                     width:80px;
@@ -164,6 +169,24 @@
 
         .izq{
             width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .draw{
+                background-color: $gainsboro;
+                border-radius: 10px;
+                box-shadow: 0px 16px 15px -6px rgba(0,0,0,0.41);
+                
+                p{
+                    padding: 5px 10px;
+                }
+                :hover{
+                    background-color: $eerieBlack;
+                    border-radius: 10px;
+                    box-shadow: 0px 16px 15px -6px rgba(0,0,0,0.41);
+                }
+            }
         }
     }
 
@@ -172,7 +195,7 @@
  .contacto{
     width: 96vw;
     max-width: 1200px;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -198,7 +221,7 @@
         background-color: $onyx;
         width: 96vw;
         max-width: 1200px;
-        height: 60vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
