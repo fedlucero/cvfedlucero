@@ -55,6 +55,7 @@
                
                img{
                    width:65%;
+                   height:65%;
                }
            }
    }
@@ -147,7 +148,8 @@
             .imgPerfil{
                 align-self: center;
                 margin-top: 10vh;
-                width: 40%;
+                height: 50vh;
+                width: 50vh;
                 
             }
     }
@@ -183,6 +185,7 @@
                 background-color: $gainsboro;
                 border-radius: 10px;
                 box-shadow: 0px 16px 15px -6px rgba(0,0,0,0.41);
+                margin-bottom: 10px;
                 
                 p{
                     padding: 5px 10px;
@@ -248,6 +251,7 @@
             justify-content: center;
             img{
             width: 80%
+            
 
             };
         }

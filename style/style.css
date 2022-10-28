@@ -203,7 +203,8 @@ a {
       display: flex;
       justify-content: center; }
       .quienSoy .imgPerfil img {
-        width: 65%; }
+        width: 65%;
+        height: 65%; }
   .skills {
     height: auto; }
     .skills .izq canvas {
@@ -255,7 +256,8 @@ a {
     .quienSoy .imgPerfil {
       align-self: center;
       margin-top: 10vh;
-      width: 40%; }
+      height: 50vh;
+      width: 50vh; }
   .skills {
     width: 96vw;
     max-width: 1200px;
@@ -275,7 +277,8 @@ a {
       .skills .izq .draw {
         background-color: #DEE2E6;
         border-radius: 10px;
-        box-shadow: 0px 16px 15px -6px rgba(0, 0, 0, 0.41); }
+        box-shadow: 0px 16px 15px -6px rgba(0, 0, 0, 0.41);
+        margin-bottom: 10px; }
         .skills .izq .draw p {
           padding: 5px 10px; }
         .skills .izq .draw :hover {

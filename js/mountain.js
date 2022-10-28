@@ -104,12 +104,19 @@ tams = random(12,30)
 def = Math.random()
 
 
+const botonBorrar = document.getElementById("reset");
+botonBorrar.addEventListener("click", limpiarCanvas);
+function limpiarCanvas() {
+   ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 
 
 
+generate()
 
+function generate(){
 
-
+ 
 
 if (Math.random()<0.5){
   createWater(colorAgua, 0.9, 2, h,a);
@@ -409,6 +416,8 @@ function createSun() {
     }
   
   }
+
+}
 
 }
 
