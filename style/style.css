@@ -280,11 +280,11 @@ a {
     flex-direction: row-reverse;
     align-items: center; }
     .skills .der {
-      width: 50%; }
+      width: 75%;
+      margin-right: 30px; }
       .skills .der .logosSkills img {
         width: 80px; }
     .skills .izq {
-      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center; }
@@ -309,7 +309,8 @@ a {
     align-items: center; }
     .contacto .der {
       width: 50%;
-      height: 100%; }
+      height: 100%;
+      margin-top: 10vh; }
     .contacto .izq .logosRedes {
       flex-wrap: wrap; }
       .contacto .izq .logosRedes img {
