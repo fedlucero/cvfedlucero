@@ -64,8 +64,12 @@
     height: auto;
     .izq{
         canvas{
-            margin: 7vh;
+            margin-top: 7vh;
+            margin-bottom: 2vh;
             
+        }
+        .btnCanvas{
+            margin-bottom: 7vh;
         }
     }
 
@@ -179,6 +183,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+          
 
             .draw{
                 background-color: $gainsboro;

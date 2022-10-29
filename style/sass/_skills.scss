@@ -41,12 +41,17 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-    
+
+                .btnCanvas{
+                    display: flex;
+                    margin-top: 10px;
+                    
+                    
                 .draw{
                     background-color: $gainsboro;
                     border-radius: 10px;
                     box-shadow: 0px 16px 15px -6px rgba(0,0,0,0.41);
-                    margin-bottom: 2px;
+                    margin: 5px 10px;
                     
                     p{
                         padding: 5px 10px;
@@ -56,4 +61,5 @@
             }
             
         }
+    }
     
